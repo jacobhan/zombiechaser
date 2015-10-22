@@ -5,4 +5,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 {
   [RequireComponent(typeof (NavMeshAgent))]
   [RequireComponent(typeof (ThirdPersonCharacter))]
+  
+  public class AICharacterControl : MonoBehaviour
+  
 }
