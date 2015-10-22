@@ -7,5 +7,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
   [RequireComponent(typeof (ThirdPersonCharacter))]
   
   public class AICharacterControl : MonoBehaviour
+  {
+    
+  }
   
 }
