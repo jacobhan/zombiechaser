@@ -10,6 +10,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
   {
     public NavMeshAgent agent { get; private set;
     public ThirdPersonCharacter character { get; private set; }
+    public Transform target;
+    
   }
   
 }
