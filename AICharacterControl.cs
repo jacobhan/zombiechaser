@@ -9,6 +9,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
   public class AICharacterControl : MonoBehaviour
   {
     public NavMeshAgent agent { get; private set;
+    public ThirdPersonCharacter character { get; private set; }
   }
   
 }
