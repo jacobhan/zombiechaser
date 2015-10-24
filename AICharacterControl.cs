@@ -11,7 +11,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
     public ThirdPersonCharacter character { get; private set; }
     public Transform target;
     
-    private void Start()
+    private void Start() {
+      agent = GetComponentInChildren<NavMeshAgent>();
+    }
+    
+    
   }
   
 }
