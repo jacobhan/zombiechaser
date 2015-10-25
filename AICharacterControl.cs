@@ -14,6 +14,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
     private void Start() {
       agent = GetComponentInChildren<NavMeshAgent>();
       character = GetComponent<ThirdPersonCharacter>();
+      
+      agent.updateRotation = false;
     }
     
     
