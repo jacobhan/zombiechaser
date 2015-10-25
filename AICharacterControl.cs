@@ -16,6 +16,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
       character = GetComponent<ThirdPersonCharacter>();
       
       agent.updateRotation = false;
+      agent.updatePosition = true;
     }
     
     
