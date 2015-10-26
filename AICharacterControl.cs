@@ -20,7 +20,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
     }
     
     private void Update() {
-      
+      if (target != null) {
+        
+      }
     }
     
   }
