@@ -19,7 +19,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
       agent.updatePosition = true;
     }
     
-    private void Update()
+    private void Update() {
+      
+    }
     
   }
   
