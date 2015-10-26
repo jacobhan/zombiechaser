@@ -23,7 +23,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
       if (target != null) {
         agent.SetDestination(target.position);
         
-        
+        character.Move(agent.desiredVelocity, false, false);
       }
     }
     
