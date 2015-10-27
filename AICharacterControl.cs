@@ -31,7 +31,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
       }
     }
     public void SetTarget(Transform target) {
-      
+      this.target = target;
     }
   }
   
