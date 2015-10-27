@@ -26,6 +26,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         // use the values to move the character
         character.Move(agent.desiredVelocity, false, false);
       }
+      else {
+        
+      }
     }
     
   }
