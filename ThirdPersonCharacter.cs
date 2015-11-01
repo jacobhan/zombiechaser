@@ -19,5 +19,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 		bool m_IsGrounded;
 		float m_OrigGroundCheckDistance;
 		const float k_Half = 0.5f;
+		float m_TurnAmount;
+		float m_ForwardAmount;
   	}
 }
