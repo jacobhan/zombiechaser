@@ -38,7 +38,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
 		}
 		public void Move(Vector3 move, bool crouch, bool jump) {
-			
+			if (move.magnitude > 1f) move.Normalize();
+			move = transform.InverseTransformDirection(move);
 		}
 		
 		
