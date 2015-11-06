@@ -56,6 +56,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			
 			ScaleCapsuleForCrouching(crouch);
 			PreventStandingInLowHeadroom();
+			
+			UpdateAnimator(move);
 		}
 		
 		
