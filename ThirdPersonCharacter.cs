@@ -47,7 +47,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			
 			ApplyExtraTurnRotation();
 			
-			
+			if (m_IsGrounded) {
+				HandleGroundedMovement(crouch, jump);
+			}
 		}
 		
 		
