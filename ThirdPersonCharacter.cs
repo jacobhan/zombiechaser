@@ -50,6 +50,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			if (m_IsGrounded) {
 				HandleGroundedMovement(crouch, jump);
 			}
+			else {
+				
+			}
 		}
 		
 		
