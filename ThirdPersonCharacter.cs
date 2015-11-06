@@ -51,7 +51,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				HandleGroundedMovement(crouch, jump);
 			}
 			else {
-				
+				HandleAirborneMovement();	
 			}
 		}
 		
