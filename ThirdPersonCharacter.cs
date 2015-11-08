@@ -66,6 +66,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				m_Capsule.center = m_Capsule.center / 2f;
 				m_Crouching = true;
 			}
+			else {
+				
+			}
 		}
 		
 		
