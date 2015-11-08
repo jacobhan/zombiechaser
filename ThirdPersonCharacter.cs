@@ -67,6 +67,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				m_Crouching = true;
 			}
 			else {
+				Ray crouchRay = new Ray(m_Rigidbody.position + Vector3.up * m_Capsule.radius * k_Half, Vector3.up);
+				float crouchRayLength = m_CapsuleHeight - m_Capsule.radius * k_Half;
 				
 			}
 		}
