@@ -79,6 +79,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				
 			}
 		}
+		void PreventStandingInLowHeadroom() {
+			
+		}
 		
 		
   	}
