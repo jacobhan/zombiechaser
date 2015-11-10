@@ -80,7 +80,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			}
 		}
 		void PreventStandingInLowHeadroom() {
-			
+			if (!m_Crouching) {
+				
+			}
 		}
 		
 		
