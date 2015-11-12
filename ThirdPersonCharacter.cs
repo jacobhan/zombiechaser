@@ -88,7 +88,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				}
 			}
 		}
-		
+		void UpdateAnimator(Vector3 move) {
+			
+		}
 		
   	}
 }
