@@ -95,7 +95,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			m_Animator.SetBool("Crouch", m_Crouching);
 			m_Animator.SetBool("OnGround", m_IsGrounded);
 			if (!m_IsGrounded) {
-				
+				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
 			}
 		}
 		
