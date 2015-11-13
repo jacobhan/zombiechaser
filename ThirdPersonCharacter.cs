@@ -98,6 +98,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
 			}
 		}
+		float runCycle =
+				Mathf.Repeat(
+					m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime + m_RunCycleLegOffset, 1);
+		float jumpLeg = (runCycle < k_Half ? 1 : -1) * m_ForwardAmount;
+		
 		
   	}
 }
