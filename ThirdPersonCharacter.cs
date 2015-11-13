@@ -101,7 +101,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 		float runCycle =
 				Mathf.Repeat(
 					m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime + m_RunCycleLegOffset, 1);
-		float jumpLeg = (runCycle < k_Half ? 1 : -1) * m_ForwardAmount;
+		float jumpLeg = (runCycle < k_Half ? 1 : -1) * m_ForwardAmount
+		if (m_IsGrounded) {
+			m_Animator.SetFloat("JumpLeg", jumpLeg);
+		}
 		
 		
   	}
