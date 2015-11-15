@@ -113,6 +113,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 		}
 		
 		void HandleAirborneMovement() {
+			Vector3 extraGravityForce = (Physics.gravity * m_GravityMultiplier) - Physics.gravity;
+			m_Rigidbody.AddForce(extraGravityForce);
+			
 			
 		}
 		
