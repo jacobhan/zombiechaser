@@ -106,7 +106,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			m_Animator.SetFloat("JumpLeg", jumpLeg);
 		}
 		if (m_IsGrounded && move.magnitude > 0) {
-			
+			m_Animator.speed = m_AnimSpeedMultiplier;
 		}
 		
 		
