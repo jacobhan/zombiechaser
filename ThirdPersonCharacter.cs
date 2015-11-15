@@ -105,6 +105,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 		if (m_IsGrounded) {
 			m_Animator.SetFloat("JumpLeg", jumpLeg);
 		}
+		if (m_IsGrounded && move.magnitude > 0) {
+			
+		}
 		
 		
   	}
