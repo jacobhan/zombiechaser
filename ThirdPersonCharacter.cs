@@ -112,6 +112,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			m_Animator.speed = 1;
 		}
 		
+		void HandleAirborneMovement() {
+			
+		}
 		
   	}
 }
