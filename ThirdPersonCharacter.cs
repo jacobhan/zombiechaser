@@ -109,7 +109,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			m_Animator.speed = m_AnimSpeedMultiplier;
 		}
 		else {
-			
+			m_Animator.speed = 1;
 		}
 		
 		
