@@ -108,6 +108,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 		if (m_IsGrounded && move.magnitude > 0) {
 			m_Animator.speed = m_AnimSpeedMultiplier;
 		}
+		else {
+			
+		}
 		
 		
   	}
