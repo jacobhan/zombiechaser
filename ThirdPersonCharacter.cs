@@ -126,5 +126,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				m_GroundCheckDistance = 0.1f;
 			}
 		}
+		void ApplyExtraTurnRotation() {
+			
+		}
   	}
 }
