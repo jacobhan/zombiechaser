@@ -130,5 +130,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			float turnSpeed = Mathf.Lerp(m_StationaryTurnSpeed, m_MovingTurnSpeed, m_ForwardAmount);
 			transform.Rotate(0, m_TurnAmount * turnSpeed * Time.deltaTime, 0);
 		}
+		public void OnAnimatorMove() {
+			
+		}
   	}
 }
