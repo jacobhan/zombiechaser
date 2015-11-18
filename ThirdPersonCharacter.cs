@@ -127,7 +127,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			}
 		}
 		void ApplyExtraTurnRotation() {
-			
+			float turnSpeed = Mathf.Lerp(m_StationaryTurnSpeed, m_MovingTurnSpeed, m_ForwardAmount);
+			transform.Rotate(0, m_TurnAmount * turnSpeed * Time.deltaTime, 0);
 		}
   	}
 }
