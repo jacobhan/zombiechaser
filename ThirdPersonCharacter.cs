@@ -132,7 +132,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 		}
 		public void OnAnimatorMove() {
 			if (m_IsGrounded && Time.deltaTime > 0) {
-				
+				Vector3 v = (m_Animator.deltaPosition * m_MoveSpeedMultiplier) / Time.deltaTime;
+
+				// we preserve the existing y part of the current velocity.
+				v.y = m_Rigidbody.velocity.y;
+				m_Rigidbody.velocity = v;
 			}
 		}
   	}
