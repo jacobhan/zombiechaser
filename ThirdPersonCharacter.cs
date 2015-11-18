@@ -131,7 +131,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 			transform.Rotate(0, m_TurnAmount * turnSpeed * Time.deltaTime, 0);
 		}
 		public void OnAnimatorMove() {
-			
+			if (m_IsGrounded && Time.deltaTime > 0) {
+				
+			}
 		}
   	}
 }
