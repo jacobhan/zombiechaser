@@ -146,6 +146,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				m_IsGrounded = true;
 				m_Animator.applyRootMotion = true;
 			}
+			else {
+				
+			}
 		}
   	}
 }
