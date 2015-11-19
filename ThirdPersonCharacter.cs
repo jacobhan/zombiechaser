@@ -139,5 +139,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 				m_Rigidbody.velocity = v;
 			}
 		}
+		void CheckGroundStatus() {
+			
+		}
   	}
 }
