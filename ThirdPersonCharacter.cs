@@ -142,7 +142,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
 		void CheckGroundStatus() {
 			RaycastHit hitInfo;
 			if (Physics.Raycast(transform.position + (Vector3.up * 0.1f), Vector3.down, out hitInfo, m_GroundCheckDistance)) {
-				
+				m_GroundNormal = hitInfo.normal;
+				m_IsGrounded = true;
+				m_Animator.applyRootMotion = true;
 			}
 		}
   	}
