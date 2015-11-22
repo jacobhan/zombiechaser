@@ -12,7 +12,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
     private bool m_Jump;
     
     private void Start() {
-      
+      if (Camera.main != null) {
+        
+      }
     }
   }
   
