@@ -13,7 +13,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
     
     private void Start() {
       if (Camera.main != null) {
-        m_Cam = Camera.main.transform
+        m_Cam = Camera.main.transform;
+      }
+      else {
+        
       }
     }
   }
