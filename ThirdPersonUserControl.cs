@@ -16,7 +16,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
         m_Cam = Camera.main.transform;
       }
       else {
-        
+        Debug.LogWarning(
+                    "Warning: no main camera found. Third person character needs a Camera tagged \"MainCamera\", for camera-relative controls.");
       }
     }
   }
