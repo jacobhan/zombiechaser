@@ -22,5 +22,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
       m_Character = GetComponent<ThirdPersonCharacter>();
     }
   }
+  private void Update() {
+    
+  }
   
 }
