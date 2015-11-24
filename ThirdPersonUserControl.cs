@@ -32,7 +32,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
     float v = CrossPlatformInputManager.GetAxis("Vertical");
     bool crouch = Input.GetKey(KeyCode.C);
     if (m_Cam != null) {
-      
+      m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
+      m_Move = v*m_CamForward + h*m_Cam.right;
     }
     
   }
