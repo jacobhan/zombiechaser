@@ -28,6 +28,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
     }
   }
   private void FixedUpdate() {
+    float h = CrossPlatformInputManager.GetAxis("Horizontal");
+    float v = CrossPlatformInputManager.GetAxis("Vertical");
+    
     
   }
   
