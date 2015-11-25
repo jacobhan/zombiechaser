@@ -38,6 +38,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
     else {
       m_Move = v*Vector3.forward + h*Vector3.right;
     }
+    if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
   }
   
 }
