@@ -36,7 +36,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson {
       m_Move = v*m_CamForward + h*m_Cam.right;
     }
     else {
-      
+      m_Move = v*Vector3.forward + h*Vector3.right;
     }
   }
   
