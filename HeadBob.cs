@@ -15,9 +15,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private Vector3 m_OriginalCameraPosition;
     
     private void Start() {
-      
-      
-      
+      motionBob.Setup(Camera, StrideInterval);
+      m_OriginalCameraPosition = Camera.transform.localPosition;
+    
     }
     
   }
