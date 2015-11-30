@@ -14,6 +14,12 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private bool m_PreviouslyGrounded;
     private Vector3 m_OriginalCameraPosition;
     
+    private void Start() {
+      
+      
+      
+    }
+    
   }
   
 }
