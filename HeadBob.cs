@@ -11,6 +11,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     public float StrideInterval;
     [Range(0f, 1f)] public float RunningStrideLengthen;
     
+    private bool m_PreviouslyGrounded;
+    private Vector3 m_OriginalCameraPosition;
+    
   }
   
 }
