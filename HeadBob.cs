@@ -21,6 +21,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     }
     
     private void Update() {
+      Vector3 newCameraPosition;
       
       
     }
