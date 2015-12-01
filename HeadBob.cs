@@ -22,7 +22,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     
     private void Update() {
       Vector3 newCameraPosition;
-      
+      if (rigidbodyFirstPersonController.Velocity.magnitude > 0 && rigidbodyFirstPersonController.Grounded) {
+        
+        
+      }
       
     }
     
