@@ -28,8 +28,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         newCameraPosition.y = Camera.transform.localPosition.y - jumpAndLandingBob.Offset();
       }
       else {
-        
-        
+        newCameraPosition = Camera.transform.localPosition;
+        newCameraPosition.y = m_OriginalCameraPosition.y - jumpAndLandingBob.Offset();
       }
       
     }
