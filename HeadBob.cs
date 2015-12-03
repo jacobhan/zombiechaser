@@ -34,8 +34,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       Camera.transform.localPosition = newCameraPosition;
       
       if (!m_PreviouslyGrounded && rigidbodyFirstPersonController.Grounded) {
-        
-        
+        StartCoroutine(jumpAndLandingBob.DoBobCycle());
       }
     }
     
