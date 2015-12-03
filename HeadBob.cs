@@ -36,6 +36,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       if (!m_PreviouslyGrounded && rigidbodyFirstPersonController.Grounded) {
         StartCoroutine(jumpAndLandingBob.DoBobCycle());
       }
+      m_PreviouslyGrounded = rigidbodyFirstPersonController.Grounded;
     }
     
   }
