@@ -32,6 +32,11 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         newCameraPosition.y = m_OriginalCameraPosition.y - jumpAndLandingBob.Offset();
       }
       Camera.transform.localPosition = newCameraPosition;
+      
+      if (!m_PreviouslyGrounded && rigidbodyFirstPersonController.Grounded) {
+        
+        
+      }
     }
     
   }
