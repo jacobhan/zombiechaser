@@ -13,6 +13,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     public bool smooth;
     public float smoothTime = 5f;
     
+    private Quaternion m_CharacterTargetRot;
+    private Quaternion m_CameraTargetRot;
+    
   }
   
   
