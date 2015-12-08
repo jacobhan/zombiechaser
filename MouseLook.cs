@@ -16,6 +16,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private Quaternion m_CharacterTargetRot;
     private Quaternion m_CameraTargetRot;
     
+    public void Init(Transform character, Transform camera) {
+      
+    }
+    
   }
   
   
