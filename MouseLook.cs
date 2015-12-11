@@ -37,7 +37,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
           smoothTime * Time.deltaTime);
       }
       else {
-        
+        character.localRotation = m_CharacterTargetRot;
+        camera.localRotation = m_CameraTargetRot;
       }
     }
     
