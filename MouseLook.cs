@@ -31,7 +31,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         m_CameraTargetRot = ClampRotationAroundXAxis (m_CameraTargetRot);
         
       if(smooth) {
-        
+        character.localRotation = Quaternion.Slerp (character.localRotation, m_CharacterTargetRot,
+          smoothTime * Time.deltaTime);
+        camera.localRotation = Quaternion.Slerp (camera.localRotation, m_CameraTargetRot,
+          smoothTime * Time.deltaTime);
         
       }
     }
