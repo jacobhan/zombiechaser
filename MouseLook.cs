@@ -29,6 +29,11 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       
       if(clampVerticalRotation)
         m_CameraTargetRot = ClampRotationAroundXAxis (m_CameraTargetRot);
+        
+      if(smooth) {
+        
+        
+      }
     }
     
   }
