@@ -41,7 +41,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         camera.localRotation = m_CameraTargetRot;
       }
     }
-    
+    Quaternion ClampRotationAroundXAxis(Quaternion q) {
+      
+      
+    }
   }
   
   
