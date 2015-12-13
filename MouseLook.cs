@@ -47,6 +47,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       q.z /= q.w;
       q.w = 1.0f;
       
+      float angleX = 2.0f * Mathf.Rad2Deg * Mathf.Atan (q.x)
+      
     }
   }
   
