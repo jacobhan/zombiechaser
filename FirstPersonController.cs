@@ -22,6 +22,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     [SerializeField] private CurveControlledBob m_HeadBob = new CurveControlledBob();
     [SerializeField] private LerpControlledBob m_JumpBob = new LerpControlledBob();
     [SerializeField] private float m_StepInterval;
+    [SerializeField] private AudioClip[] m_FootstepSounds;
+    [SerializeField] private AudioClip m_JumpSound;
+    [SerializeField] private AudioClip m_LandSound;
     
   }
   
