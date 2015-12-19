@@ -26,6 +26,11 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     [SerializeField] private AudioClip m_JumpSound;
     [SerializeField] private AudioClip m_LandSound;
     
+    private Camera m_Camera;
+    private bool m_Jump;
+    private float m_YRotation;
+    
+    
   }
   
   
