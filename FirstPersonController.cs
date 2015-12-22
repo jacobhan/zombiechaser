@@ -35,6 +35,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private CollisionFlags m_CollisionFlags;
     private bool m_PreviouslyGrounded;
     private Vector3 m_OriginalCameraPosition;
+    private float m_StepCycle;
+    private float m_NextStep;
+    private bool m_Jumping;
+    private AudioSource m_AudioSource;
     
   }
   
