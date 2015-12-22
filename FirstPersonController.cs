@@ -32,6 +32,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private Vector2 m_Input;
     private Vector3 m_MoveDir = Vector3.zero;
     private CharacterController m_CharacterController;
+    private CollisionFlags m_CollisionFlags;
+    private bool m_PreviouslyGrounded;
+    private Vector3 m_OriginalCameraPosition;
     
   }
   
