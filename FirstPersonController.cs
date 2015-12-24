@@ -40,6 +40,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private bool m_Jumping;
     private AudioSource m_AudioSource;
     
+    private void Start() {
+      
+      
+    }
   }
   
   
