@@ -41,7 +41,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private AudioSource m_AudioSource;
     
     private void Start() {
-      
+      m_CharacterController = GetComponent<CharacterController>();
+      m_Camera = Camera.main;
+      m_OriginalCameraPosition = m_Camera.transform.localPosition;
       
     }
   }
