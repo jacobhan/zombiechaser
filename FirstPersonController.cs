@@ -53,6 +53,11 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       m_MouseLook.Init(transform , m_Camera.transform);
       
     }
+    
+    private void Update() {
+      
+      
+    }
   }
   
   
