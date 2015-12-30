@@ -60,7 +60,10 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
       }
       if (!m_PreviouslyGrounded && m_CharacterController.isGrounded) {
-        
+        StartCoroutine(m_JumpBob.DoBobCycle());
+        PlayLandingSound();
+        m_MoveDir.y = 0f;
+        m_Jumping = false;
       }
     }
   }
