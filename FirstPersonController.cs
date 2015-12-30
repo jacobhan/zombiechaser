@@ -57,7 +57,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private void Update() {
       RotateView();
       if (!m_Jump) {
-        
+        m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
       }
     }
   }
