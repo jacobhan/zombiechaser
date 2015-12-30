@@ -56,7 +56,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     
     private void Update() {
       RotateView();
-      
+      if (!m_Jump) {
+        
+      }
     }
   }
   
