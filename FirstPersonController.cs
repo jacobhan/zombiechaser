@@ -74,6 +74,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       m_AudioSource.clip = m_LandSound;
       m_AudioSource.Play();
       m_NextStep = m_StepCycle + .5f;
+    }
+    private void FixedUpdate() {
+      
       
     }
   }
