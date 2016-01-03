@@ -76,7 +76,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       m_NextStep = m_StepCycle + .5f;
     }
     private void FixedUpdate() {
-      
+      float speed;
+      GetInput(out speed);
       
     }
   }
