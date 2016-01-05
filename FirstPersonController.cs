@@ -78,7 +78,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
     private void FixedUpdate() {
       float speed;
       GetInput(out speed);
-      
+      Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
     }
   }
   
