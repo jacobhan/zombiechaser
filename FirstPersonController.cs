@@ -79,6 +79,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
       float speed;
       GetInput(out speed);
       Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
+      RaycastHit hitInfo;
+      Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo, m_CharacterController.height/2f);
     }
   }
   
