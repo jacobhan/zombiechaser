@@ -94,7 +94,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
           m_Jumping = true;
         }
         else {
-          
+          m_MoveDir += Physics.gravity*m_GravityMultiplier*Time.fixedDeltaTime;
         }
       }
     }
