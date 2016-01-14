@@ -100,6 +100,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         ProgressStepCycle(speed);
         UpdateCameraPosition(speed);
       }
+      private void PlayJumpSound() {
+        
+      }
     }
   }
   
