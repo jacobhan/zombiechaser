@@ -101,7 +101,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         UpdateCameraPosition(speed);
       }
       private void PlayJumpSound() {
-        
+        m_AudioSource.clip = m_JumpSound;
+        m_AudioSource.Play();
       }
     }
   }
