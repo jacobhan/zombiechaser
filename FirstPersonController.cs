@@ -104,6 +104,9 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         m_AudioSource.clip = m_JumpSound;
         m_AudioSource.Play();
       }
+      private void ProgressStepCycle(float speed) {
+        
+      }
     }
   }
   
